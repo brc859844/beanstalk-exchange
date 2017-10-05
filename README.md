@@ -23,7 +23,7 @@ To install from source:
 
 Next, enable the plugin:
 
-    rabbitmq-plugins enable rabbit_exchange_type_redis
+    rabbitmq-plugins enable rabbit_exchange_type_beanstalk
 
 Note that the exchange uses a rebar-buildable version of https://github.com/tim/erlang-beanstalk for communication
 with beanstalkd.
